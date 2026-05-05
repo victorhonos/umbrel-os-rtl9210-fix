@@ -8,11 +8,14 @@ Step-by-step to fix and optimize Enclosures with chipsets RTL9210 and RTL9210B i
 
 ### Table of contents
 
-- [Abbout](#abbout)
+- [Information](#information)
 - [Step-by-step](#step-by-step)
 - [Firmware download](#firmware-download)
+- [Chipset list](#chipset-list)
+- [Supported devices](#supported-devices)
 - [Unbrick](#unbrick)
 - [Firmware changelog](#firmware-changelog)
+- [Sources](#sources)
 
 ### Files and folders
 
@@ -22,7 +25,7 @@ Step-by-step to fix and optimize Enclosures with chipsets RTL9210 and RTL9210B i
 
 ---
 
-## 📌 Information
+## Information
 
 The problem is to run local server with Umbrel **☂️ Umbrel OS** (Raspberry Pi 4) using **External SSD enclosure** with chipsets **_RTL9210 and RTL9210B_** (Orico, Ugreen, and more). Many of enclosures contains old version of firmware, is unstable and bring problems in Umbrel OS system. So, try to use a enclosure with these chipsets, often cause message **_Refused connection_** in `https://umbrel.local` after some time. This occurs because the default firmware force the **_Sleep Mode/Enclosure suspension_** from time to time. When Umbrel OS try access and write disk finds device _sleeping_, doing to lock the _Docker_ and others services of Umbrel OS, repeating this cicle with every forced restart system.
 
@@ -39,7 +42,7 @@ The solution is to _flash_ a new stable firmware version (**Recommended v1.32.49
 
 ---
 
-## 📘 Step-by-Step
+## Step-by-step
 
 ### Requirements
 
@@ -143,7 +146,7 @@ To create your own configuration, you can use the `dump` folder to get the value
 
 ---
 
-## 📥 Firmware download
+## Firmware download
 
 All versions already include an firmware update tool in `.zip` file.
 
@@ -184,7 +187,7 @@ All versions already include an firmware update tool in `.zip` file.
 | 1.23.5               | ❓         | ❓         | ❓       | ❌       | n/a                                                             |
 | 1.20.12              | ❓         | ✅         | ❌       | ❌       | [Download](firmware/realtek_rtl9210_fw_1.20.12.zip)             |
 
-## Chipset List
+## Chipset list
 
 | Hardware    | USB          | PCIe/NVMe | SATA   | Others features                                                                                    |
 | :---------- | :----------- | :-------- | :----- | :------------------------------------------------------------------------------------------------- |
@@ -199,7 +202,7 @@ All versions already include an firmware update tool in `.zip` file.
 | RTL9220VA   | 3.2 20Gbps ? | 3.0x4 ?   | -      |                                                                                                    |
 | RTL9220DP   | 3.2 40Gbps   | 3.0x4     | -      | RAID0, RAID1                                                                                       |
 
-### Supported Devices
+## Supported devices
 
 There are dozens of devices with the RTL9210B, I have gathered in this git repository some firmware configs found on the [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/76-nvme-usb-drives-realtek-rtl9210-rtl9220-firmware-version-1-xx?start=0) forums.
 
@@ -222,7 +225,7 @@ You can check in the [configure](configure) folder or use values from the [dump]
 
 ---
 
-## 🛠️ Unbrick
+## Unbrick
 
 When you have bricked your device, you can try to unbrick it with the following steps:
 
@@ -239,7 +242,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 ---
 
-## 📝 Firmware changelog
+## Firmware changelog
 
 ### 1.23.9.100520 05/10/2020
 
@@ -322,7 +325,7 @@ When you have bricked your device, you can try to unbrick it with the following 
 
 ---
 
-## 🔗 Sources
+## Sources
 
 - [https://github.com/bensuperpc/rtl9210](https://github.com/bensuperpc/rtl9210)
 - [www.station-drivers.com](https://www.station-drivers.com/index.php/en/forum/enclosures-nvme-sata-usb-3-x/76-nvme-usb-drives-realtek-rtl9210-rtl9220-firmware-version-1-xx?start=0)
