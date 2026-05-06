@@ -47,8 +47,6 @@ The solution is to _flash_ a new stable firmware version (**Recommended v1.32.49
 ### Requirements
 
 - A computer running Windows
-- Select and download firmware version
-- Remove the NVMe/SATA drive from the enclosure (prevents data loss if something goes wrong)
 
 > **Warning:** Flashing the firmware can _BRICK_ or _PERMANENTLY DAMAGE_ your device. **Do it at your own risk**. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the Unbrick section.  
 
