@@ -44,9 +44,7 @@ The solution is to _flash_ a new stable firmware version (**Recommended v1.32.49
 
 ## Step-by-step
 
-### Requirements
-
-- A computer running Windows
+- Required a computer running Windows
 
 > **Warning:** Flashing the firmware can _BRICK_ or _PERMANENTLY DAMAGE_ your device. **Do it at your own risk**. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the Unbrick section.  
 
