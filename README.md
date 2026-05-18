@@ -4,6 +4,8 @@ Step-by-step to fix and optimize Enclosures with chipsets RTL9210 and RTL9210B i
 
 > _All procedures described in this Git repository are at your own risk. In case of software issues, you can find some solutions in the [Unbrick](#unbrick) section._
 
+Recommended try this first: https://github.com/getumbrel/umbrel/issues/2139#issuecomment-4416300158
+
 ---
 
 ### Table of contents
