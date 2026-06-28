@@ -2,6 +2,7 @@
 
 Step-by-step to fix and optimize Enclosures with chipsets RTL9210 and RTL9210B in Umbrel OS (Raspberry Pi). Solving unexpected disconnections for your NVMe/SATA SSD caused by suspension mode for this esclosures with default firmware version.
 
+> [!TIP]
 > _All procedures described in this Git repository are at your own risk. In case of software issues, you can find some solutions in the [Unbrick](#unbrick) section._
 
 Recommended try this first: https://github.com/getumbrel/umbrel/issues/2139#issuecomment-4416300158
@@ -48,9 +49,11 @@ The solution is to _flash_ a new stable firmware version (**Recommended v1.32.49
 
 - Required a computer running Windows
 
-> **Warning:** Flashing the firmware can _BRICK_ or _PERMANENTLY DAMAGE_ your device. **Do it at your own risk**. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the Unbrick section.  
+> [!CAUTION]
+> Flashing the firmware can _BRICK_ or _PERMANENTLY DAMAGE_ your device. **Do it at your own risk**. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the Unbrick section.  
 
-> **Info:** The firmware update tool is **ONLY AVALIABLE FOR WINDOWS** and _does not work well on Linux with Wine or in a virtual machine_.
+> [!WARNING]
+> The firmware update tool is **ONLY AVALIABLE FOR WINDOWS** and _does not work well on Linux with Wine or in a virtual machine_.
 
 1. Download the **correct** and latest firmware with tools from the `firmware` folder.
 2. Extract the archive.
