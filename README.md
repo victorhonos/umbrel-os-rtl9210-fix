@@ -49,10 +49,11 @@ The solution is to _flash_ a new stable firmware version (**Recommended v1.32.49
 
 ## Step-by-step
 
-> [!CAUTION]
-> Flashing the firmware can _BRICK_ or _PERMANENTLY DAMAGE_ your device. **Do it at your own risk**. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the Unbrick section.  
 > [!WARNING]
 > The firmware update tool is **ONLY AVALIABLE FOR WINDOWS** and _does not work well on Linux with Wine or in a virtual machine_.
+
+> [!CAUTION]
+> Flashing the firmware can _BRICK_ or _PERMANENTLY DAMAGE_ your device. **Do it at your own risk**. The author of this Git repository is not responsible for any damage to your device. If you brick your device, you can try to unbrick it with the Unbrick section.  
 
 1. Download the **correct** and latest firmware with tools from the `firmware` folder.
 2. Extract the archive.
